@@ -3,8 +3,7 @@ Connect Line bot with firebase.
 
 ### How to setup
 
-1. Create line developer provider 
-``` https://developers.line.biz/console/register/messaging-api/provider/ ```
+1. Create [Line developer provider](https://developers.line.biz/console/register/messaging-api/provider/)
 
 2. Create __Channel access token__
 
@@ -35,15 +34,17 @@ git commit -m 'Init'
 git push heroku master
 ```
 
-9. Go to Heroku and press __Open app__ button and copy link to paste in __Webhook URL__ in Line developer 
+9. Go to Heroku and press __Open app__ button and copy link to paste in __Webhook URL__ in Line developer.
+
+Example:
 ```
-  example: https://app_name.herokuapp.com/webhook
+  https://app_name.herokuapp.com/webhook
 ```
 10. Press verify webhook 
 
 11. Open firebase console, create new project
 
-12. Press Gear button![gear button](doc/firebase-setting.png) and click Project settings
+12. Press Gear button ![gear button](doc/firebase-setting.png) and click Project settings
 
 13. Select Service Account and Generate new private key
 
