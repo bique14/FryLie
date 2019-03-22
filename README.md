@@ -1,6 +1,9 @@
 # FryLie
 Connect Line bot with firebase.
 
+You can add Rosé ```@tmg8904s```
+
+
 ![intro](doc/intro.png)
 
 ### How to setup
